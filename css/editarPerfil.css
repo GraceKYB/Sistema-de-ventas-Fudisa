@@ -1,0 +1,113 @@
+/* ====== Estilos generales ====== */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 420px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* ====== Formularios ====== */
+form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #444;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+form input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0,123,255,0.3);
+}
+
+/* ====== Checkbox ====== */
+form input[type="checkbox"] {
+    margin-right: 6px;
+    transform: scale(1.2);
+}
+
+.checkbox-label {
+    font-weight: 500;
+    color: #333;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* ====== Botones ====== */
+button {
+    width: 100%;
+    background: #28a745;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #218838;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ====== Alertas ====== */
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.alert.error {
+    background: #ffe5e5;
+    color: #c0392b;
+    border: 1px solid #e74c3c;
+}
+
+.alert.success {
+    background: #e5f9e7;
+    color: #27ae60;
+    border: 1px solid #2ecc71;
+}
